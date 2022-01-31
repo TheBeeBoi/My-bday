@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+}
+
 body {
-  background: #dcdcdc;
+  background: #000;
 }
 
 .main {

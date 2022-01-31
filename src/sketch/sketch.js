@@ -1,10 +1,9 @@
 import Dot from './Dot';
-import fontFile from './AvenirNextLTPro-Demi.otf';
+import fontFile from './HelvNow.otf';
 
 const defaultFrameRate = 30; // low framerate to avoid too much strain on mobile phones
 
-
-export default (parent, text) => (sketch) => {
+const ret = (parent, text) => (sketch) => {
   let font;
   let dots;
   let firstWordPoints;
@@ -66,3 +65,6 @@ export default (parent, text) => (sketch) => {
     });
   };
 };
+
+
+export default ret
